@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    border: solid 1px red;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+.nav {
+display: inline-flex;
+height: 69px;
+position: fixed;
+left: 0;
+width: 100%;
+margin-left: 10px;
+z-index: 10;
+}
+
+.logo{
+    align-content: center;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    
+}
+.menu ul{
+    display: inline-flex;
+    text-decoration: underline;
+    position: absolute;
+    right: 0;
+    margin: 0 10px;
+}
+
+.menu ul li{
+    margin: 10px;
+    list-style: none;
+}
+.main {
+    position: relative;
+    top: 69px;
+}
+.mainpics{
+     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1aoru8f*_gcl_au*MTc5MDc2NTEwLjE3MTcwODg3ODI.*_ga*MTczMTM1Mzc0Mi4xNzE3MDg4Nzgz*_ga_3LRZM6TM9L*MTcxOTczNTc1NS4xOC4wLjE3MTk3MzU3NTUuMC4wLjA.); */
+    width:1200px;
+    height: 700px;
+    margin: 10px auto;
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    flex:
+
+}
+.main h2,.main p{
+    
+    
+}
+.h2 {
+}
+.title {
+}
+.product {
+}
+.item {
+}
+.location {
+}
+.place {
+}
+.contact {
+}
+.copyright {
+}
+
