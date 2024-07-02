@@ -78,8 +78,9 @@ border-bottom: 1px solid seashell;
     width: 1000px;
     position: relative;
     top: 60px;
-    margin: 0 auto;
+    margin: 0 auto 150px;
     text-align: center;
+
 }
 .product-text{
     display: inline-block;
@@ -106,7 +107,7 @@ border-bottom: 1px solid seashell;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
     background-image: no-repeat;
     width:1200px;
-    height: 700px;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     flex-flow: wrap row;
@@ -115,9 +116,12 @@ border-bottom: 1px solid seashell;
 }
 .location-title{
     width: 100%;
+    align-content: end;
+    padding: 10px;
     
 }
-.container{
+.container-location{
+    width: 100%;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
@@ -126,6 +130,7 @@ border-bottom: 1px solid seashell;
 .item-place{
     width: 300px;
     height:300px;
+    background-color: black;
 }
 
 .container h3{
@@ -135,4 +140,6 @@ border-bottom: 1px solid seashell;
 .contact {
 }
 .copyright {
+    text-align: left;
+    margin-left: 20px;
 }
